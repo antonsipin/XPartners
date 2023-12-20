@@ -37,6 +37,9 @@ export const Users = () => {
         </div>
       </div>
       <div className={styles.Body}>
+        <div>
+          <h4 className={styles.Title}>Scroll to view accounts below</h4>
+        </div>
         {users.length ? (
           <div>
             <Carousel
@@ -47,7 +50,7 @@ export const Users = () => {
               {users.map((user, index) => (
                 <Carousel.Item>
                   <img src={`/files/${user.photo}`} alt={""} />
-                  <h3 className={styles.Name}>{user.name}</h3>
+                  <h4 className={styles.Name}>{user.name}</h4>
                   <p className={styles.Age}>Age: {getAge(user.birthDate)}</p>
                 </Carousel.Item>
               ))}
