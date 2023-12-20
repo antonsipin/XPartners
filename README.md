@@ -1,6 +1,15 @@
 # XParners App
 
   <h3>
+    This application allows to register, authentication, create and edit a personal account, add and edit photos in your account, and also view available accounts of registered users.
+  </h3>
+  <h3>
+    This app is available by link: https://x-parners.onrender.com/
+  </h3>
+  <h3>
+    Techs: HTML, CSS, TypeScript, JavaScript, Express.js, Node.js, JSON Web Tokens (JWT), MongoDB, Mongoose, React, Redux Toolkit, REST API, WebSocket, Sass/SCSS, CSS Modules, Adaptive layout, Docker.
+  </h3>
+  <h3>
    How to start the app locally:
   </h3>
   <p>
