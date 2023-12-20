@@ -1,0 +1,5 @@
+export const SIGN_IN = 'user/signIn'
+export const SIGN_UP = 'user/signUp'
+export const LOGOUT = 'user/logout'
+export const UPDATE_USER = 'user/updateUser'
+export const GET_USERS = 'users/getUsers'

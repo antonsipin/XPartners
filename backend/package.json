@@ -1,0 +1,47 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon --ignore .'sessions/' app.js",
+    "start": "node app.js",
+    "production": "cross-env NODE_ENV=production node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonsipin/XPartners.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonsipin/XPartners/issues"
+  },
+  "homepage": "https://github.com/antonsipin/XPartners#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "debug": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.3",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "session-file-store": "^1.5.0",
+    "ws": "^7.5.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "stylelint": "^16.0.2"
+  }
+}

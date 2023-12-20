@@ -1,0 +1,25 @@
+{
+  "name": "XPartners",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm ci && npm run build",
+    "server:ci": "cd backend && npm ci",
+    "start": "cd backend && npm start"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonsipin/XPartners.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonsipin/XPartners/issues"
+  },
+  "homepage": "https://github.com/antonsipin/XPartners#readme"
+}
