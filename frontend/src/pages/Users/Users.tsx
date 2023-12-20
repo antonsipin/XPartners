@@ -32,6 +32,9 @@ export const Users = () => {
         <Link to="/logout" className={styles.LogoutLink}>
           Logout
         </Link>
+        <Link to="/account" className={styles.LogoutLink}>
+          Back to account
+        </Link>
         <div className={styles.Select}>
           <Select value={theme} setTheme={setTheme} />
         </div>
@@ -59,17 +62,6 @@ export const Users = () => {
         ) : (
           <NoUsers />
         )}
-        <div className={styles.btnBack}>
-          <Button
-            btnType={"submit"}
-            children={
-              <div>
-                Back to account <MdOutlineChevronRight />
-              </div>
-            }
-            onClick={handleAccount}
-          />
-        </div>
       </div>
     </div>
   );
